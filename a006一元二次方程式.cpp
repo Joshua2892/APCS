@@ -22,5 +22,7 @@ int main() {
     	int y= sqrt(D);
     	cout<<"Two different roots x1="<<(x+y)/(2*a)<<"x2="<<(x-y)/(2*a)<<"\n";
     }
+    else
+    	cout<<"No real root";
 	return 0;
 }
